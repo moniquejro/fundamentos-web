@@ -1,0 +1,53 @@
+/*Estilos de index.html*/
+.center {
+    font-size: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;    
+}
+#menu li a {
+    text-decoration: none;
+    color: salmon;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: #9E2A0D;
+    background-color: #FF6A45;
+    border-bottom: salmon;
+    padding: 15px;
+    transition: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.p-30 {
+    padding: 20px;
+}
+
+.br-80 {
+    border-radius: 80px;
+}
+
+.wh-300 {
+    width: 500px;
+    height: 350px;
+}
+body{
+    background-color: #F3EDE7;
+    text-decoration: #733E35;
+}
+/*Estilos de contato.html*/
+
+.ml-50 {
+    margin-left: 100px;
+}
