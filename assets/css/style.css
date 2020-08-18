@@ -62,21 +62,3 @@ body{
 .ml-50 {
     margin-left: 100px;
 }
-.header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    width: 100%;
-    background-color: #f7d5d5;
-  }
-
-.progress-container {
-    width: 100%;
-    height: 8px;
-    background: rgb(0, 0, 0);
-  }
-.progress-bar {
-    height: 10px;
-    background: #62af65;
-    width: 0%;
-  }
