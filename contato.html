@@ -36,11 +36,11 @@
                 <div id='txtEmail'></div>
                 <br>
                 <label for="assunto">Assunto:</label><br>
-                <textarea name="assunto" id="assunto" cols="60" rows="10"></textarea>
-                <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="10" onkeyup="validaAssunto()" ></textarea>
+                <div id='txtAssunto'></div>
                 <br>
         
-                <button>Enviar</button>
+                <button onclick="enviar()" >Enviar</button>
             </form>
         </div>
 
@@ -52,6 +52,9 @@
         style="border:0;" 
         allowfullscreen="" 
         aria-hidden="false" 
+        id="mapa"
+        onmousemove="mapaZoom()"
+        onmouseout="mapaNormal()"
         tabindex="0">
         </iframe>
         </div>
